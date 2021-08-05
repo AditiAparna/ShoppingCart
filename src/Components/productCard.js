@@ -33,7 +33,7 @@ export default class ProductCard extends React.Component{
                     this.setState({pressed: true})
                 }}>
                   <div><text>Add to cart</text></div>
-                  <div><img alt='cart' src="https://img-premium.flaticon.com/png/512/2543/premium/2543369.png?token=exp=1628106377~hmac=9a5cf7221ce3e85abd6cb4b4f439a3d5" style={{height: '20px', width: '20px', color:'white'}} /></div>
+                  <div><img alt='cart' src="https://image.flaticon.com/icons/png/512/3144/3144456.png" style={{height: '20px', width: '20px', color:'white'}} /></div>
                 </div>
                 }
             </div>
