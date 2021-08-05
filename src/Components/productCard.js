@@ -51,7 +51,7 @@ export default class ProductCard extends React.Component{
                         <text>Rs. {this.props.price}</text>
                     </div>
                 </div>
-                {this.state.pressed?
+                {this.props.data.addedToCart?
                 <div className="addCart" onClick={null}>
                   <div><text>Added</text></div>
                   <div><img alt='cart' src="https://as2.ftcdn.net/v2/jpg/03/10/70/79/500_F_310707936_iickgWF7S3Gd3EXm6pyFCKA7gYSzI5Tr.jpg" style={{height: '20px', width: '20px', color:'white'}} /></div>

@@ -20,6 +20,7 @@ export default class App extends React.Component {
   }
 
   addToCart=(data)=>{
+    data.addedToCart=true
     data.quantity=1
     this.state.cartArray.push(data)
     this.setState({badgeNumber: this.state.cartArray.length})
