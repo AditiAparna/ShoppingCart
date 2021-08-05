@@ -1,0 +1,49 @@
+.card{
+    padding:20px;
+    border: 2px solid #949494;
+    height: 230px;
+    width: 176px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: rgba(176, 176, 176, 0.4);
+    cursor: pointer;
+}
+.card:hover{
+    background-color: rgba(176, 176, 176, 0.8);
+    border: 2px solid rgba(102, 102, 102, 0.8);
+}
+.image{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.addCart{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    height: 20px;
+    border: 1px solid black;
+    align-content: center;
+    justify-content: center;
+    background-color:white;
+    border-radius: 5px;
+}
+/* .modal{
+    margin-top: 200px;
+    margin-left: 400px;
+    height: 400px;
+    width: 700px;
+    background-color: chartreuse;
+}
+.modalInside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.modalImage{
+    padding: 20;
+    height: 250px;
+    width: 250px;
+} */

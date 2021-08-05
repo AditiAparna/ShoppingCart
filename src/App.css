@@ -1,6 +1,11 @@
 .App {
   text-align: center;
   height: 100%;
+  background-image: url(/src/Assets/Gradient\ Color\ projects.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .App-logo {
@@ -11,18 +16,16 @@
   height: 100%;
   position: fixed;
   z-index: 1;
-  top: 90px;
+  top: 72px;
   left: 0;
   overflow-x: hidden;
   padding-top: 2px;
-  border: 1px solid #000000;
 }
 
 .productTile{
   margin-left: 210px;
   margin-top: 70px;
   padding: 10px;
-  border: 1px solid #000000;
 }
 
 @media (prefers-reduced-motion: no-preference) {
