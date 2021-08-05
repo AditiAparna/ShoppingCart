@@ -9,39 +9,10 @@ export default class ProductCard extends React.Component{
             pressed: false,
         };
     };
-    
-    // modalDisplay(){
-    //     return(
-    //       <Modal
-    //         isOpen={this.state.modalVisible}
-    //         className="modal"
-    //         onRequestClose={() => this.setState({modalVisible: false})}
-    //       >
-    //         <div className="modalInside">
-    //           <div>
-    //             <img src={this.props.url} alt={this.props.name} className="modalImage"/>
-    //           </div>
-    //           <div style={{display:'flex', flexDirection:'row', justifyContent:'space-evenly'}}>
-    //               <div>
-    //                   <text>{this.props.name}</text>
-    //               </div>
-    //               <div>
-    //                   <text>asdrfhjvguyftdiyrxcfgvbygftrxcfvg</text>
-    //               </div>
-    //               <div>
-    //                   <text>Rs. {this.props.price}</text>
-    //               </div>
-    //               <div>
-    //                   <text>Add to Cart</text>
-    //               </div>
-    //           </div>
-    //         </div>
-    //       </Modal>
-    //     )
-    //   }
+
     render(){
         return(
-            <div className="card" >
+            <div className="card" onClick={()=>this.setState({modalVisible: !this.state.modalVisible})}>
                 <img src={this.props.url} alt={this.props.name} className="image"/>
                 <div style={{flexDirection:'row', paddingTop:'5px'}}>
                     <div>
