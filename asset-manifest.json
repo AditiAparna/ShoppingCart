@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/AditiAparna/shopping_website/static/css/main.4bf48771.chunk.css",
+    "main.js": "/AditiAparna/shopping_website/static/js/main.eae2b2a8.chunk.js",
+    "main.js.map": "/AditiAparna/shopping_website/static/js/main.eae2b2a8.chunk.js.map",
+    "runtime-main.js": "/AditiAparna/shopping_website/static/js/runtime-main.d9e6c1d6.js",
+    "runtime-main.js.map": "/AditiAparna/shopping_website/static/js/runtime-main.d9e6c1d6.js.map",
+    "static/js/2.98914b55.chunk.js": "/AditiAparna/shopping_website/static/js/2.98914b55.chunk.js",
+    "static/js/2.98914b55.chunk.js.map": "/AditiAparna/shopping_website/static/js/2.98914b55.chunk.js.map",
+    "index.html": "/AditiAparna/shopping_website/index.html",
+    "static/css/main.4bf48771.chunk.css.map": "/AditiAparna/shopping_website/static/css/main.4bf48771.chunk.css.map",
+    "static/js/2.98914b55.chunk.js.LICENSE.txt": "/AditiAparna/shopping_website/static/js/2.98914b55.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/AditiAparna/shopping_website/static/media/Gradient Color projects.b1aa88c7.png",
+    "static/media/logo.b0c2e85c.png": "/AditiAparna/shopping_website/static/media/logo.b0c2e85c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9e6c1d6.js",
+    "static/js/2.98914b55.chunk.js",
+    "static/css/main.4bf48771.chunk.css",
+    "static/js/main.eae2b2a8.chunk.js"
+  ]
+}
